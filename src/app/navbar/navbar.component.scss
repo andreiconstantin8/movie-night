@@ -1,0 +1,28 @@
+nav {
+    background:linear-gradient(to right,#000000,#320338);
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+}
+h1 {
+    margin:5px;
+    padding:0px;
+    color:white;
+    cursor:pointer;
+}
+button { 
+    margin-top:10px;
+    border:0px;
+    background: linear-gradient(to right , rgb(0, 0, 0) , rgb(12, 1, 34));
+    font-size:18px;
+    color:white;
+    margin-right:14px;
+    height:30px;
+    width:70px;
+    border-radius:10px;
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    &:hover{
+        transform: translateY(-2px) scale(1.1);
+    }
+
+}
